@@ -1,0 +1,11 @@
+\begin{table}[t]
+\caption{What the run-level pipeline reports when invariance holds. Human controls: 600 distinct people, 200 replicates. Nulls: eight synthetic humans at the models' abilities, each re-run 75 times with that model's missing cells; 200 data sets each. The rows differ in the dependence among a model's runs: none (fresh independent draws); shared item propensities matched to each model's run-to-run variance, centred exactly on the human curve; or one answer copied to every run and flipped at the model's flip rate, the null of Section~\ref{sec:runlevel}, whose flips also pull each item's run proportion towards one half. Observed: 0.84.}
+\label{tab:runlevel2}\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lccc}\toprule
+data & mean rate & 90\% range & $P(\ge0.84)$ \\\midrule
+random split, people & 0.001 & [0.00, 0.00] & 0.00 \\
+men vs.\ women, people & 0.067 & [0.00, 0.20] & 0.00 \\
+re-runs: independent & 0.000 & [0.00, 0.00] & 0.00 \\
+re-runs: shared propensities & 0.712 & [0.48, 0.92] & 0.22 \\
+re-runs: one answer + flips & 0.751 & [0.52, 0.92] & 0.33 \\
+\bottomrule\end{tabular}\end{table}

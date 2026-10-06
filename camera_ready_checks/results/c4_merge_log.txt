@@ -1,0 +1,32 @@
+{
+ "A": {
+  "reps": 200,
+  "rate_mean": 0.7462000000000001,
+  "rate_median": 0.76,
+  "rate_q05": 0.56,
+  "rate_q95": 0.92,
+  "share_ge_observed_084": 0.285,
+  "sigma_zero_share": 0.465,
+  "mu_median": -1.3208900264684744
+ },
+ "B": {
+  "reps": 200,
+  "rate_mean": 0.0002,
+  "rate_median": 0.0,
+  "rate_q05": 0.0,
+  "rate_q95": 0.0,
+  "share_ge_observed_084": 0.0,
+  "sigma_zero_share": 0.0,
+  "mu_median": -1.5163432336033842
+ },
+ "C": {
+  "reps": 200,
+  "rate_mean": 0.7116,
+  "rate_median": 0.72,
+  "rate_q05": 0.48,
+  "rate_q95": 0.92,
+  "share_ge_observed_084": 0.215,
+  "sigma_zero_share": 0.37,
+  "mu_median": -1.5607925905022442
+ }
+}

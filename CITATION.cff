@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper (preferred citation) and this archive."
+title: "Measurement invariance between human and machine respondents on cognitive assessments: code, data and results"
+type: software
+authors:
+  - family-names: Siddiqui
+    given-names: Mohammad Hamza
+    affiliation: Indian Institute of Management Ranchi
+version: 1.1.1
+repository-code: "https://github.com/hamzasdq11/human-machine-invariance"
+date-released: 2026-10-07
+license: MIT
+keywords:
+  - measurement invariance
+  - differential item functioning
+  - item response theory
+  - large language models
+  - cognitive assessment
+  - psychometrics
+preferred-citation:
+  type: conference-paper
+  title: "Measurement Invariance Between Human and Machine Respondents on Cognitive Assessments"
+  authors:
+    - family-names: Siddiqui
+      given-names: Mohammad Hamza
+      affiliation: Indian Institute of Management Ranchi
+  collection-title: "Proceedings of the IEEE International Conference on Cognitive Machine Intelligence (CogMI)"
+  publisher:
+    name: IEEE
+  year: 2026

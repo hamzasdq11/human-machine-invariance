@@ -1,0 +1,226 @@
+[
+  {
+    "dropped": [
+      "NousResearch/Meta-Llama-3.1-8B-Instruct",
+      "Qwen/Qwen2.5-14B-Instruct"
+    ],
+    "rate": 0.72,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "NousResearch/Meta-Llama-3.1-8B-Instruct",
+      "Qwen/Qwen2.5-3B-Instruct"
+    ],
+    "rate": 0.8,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "NousResearch/Meta-Llama-3.1-8B-Instruct",
+      "Qwen/Qwen2.5-7B-Instruct"
+    ],
+    "rate": 0.88,
+    "status": "cycled"
+  },
+  {
+    "dropped": [
+      "NousResearch/Meta-Llama-3.1-8B-Instruct",
+      "allenai/OLMo-2-1124-13B-Instruct"
+    ],
+    "rate": 0.8,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "NousResearch/Meta-Llama-3.1-8B-Instruct",
+      "allenai/OLMo-2-1124-7B-Instruct"
+    ],
+    "rate": 0.84,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "NousResearch/Meta-Llama-3.1-8B-Instruct",
+      "microsoft/Phi-3.5-mini-instruct"
+    ],
+    "rate": 0.84,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "NousResearch/Meta-Llama-3.1-8B-Instruct",
+      "teknium/OpenHermes-2.5-Mistral-7B"
+    ],
+    "rate": 0.8,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "Qwen/Qwen2.5-14B-Instruct",
+      "Qwen/Qwen2.5-3B-Instruct"
+    ],
+    "rate": 0.8,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "Qwen/Qwen2.5-14B-Instruct",
+      "Qwen/Qwen2.5-7B-Instruct"
+    ],
+    "rate": 0.64,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "Qwen/Qwen2.5-14B-Instruct",
+      "allenai/OLMo-2-1124-13B-Instruct"
+    ],
+    "rate": 0.8,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "Qwen/Qwen2.5-14B-Instruct",
+      "allenai/OLMo-2-1124-7B-Instruct"
+    ],
+    "rate": 0.8,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "Qwen/Qwen2.5-14B-Instruct",
+      "microsoft/Phi-3.5-mini-instruct"
+    ],
+    "rate": 0.76,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "Qwen/Qwen2.5-14B-Instruct",
+      "teknium/OpenHermes-2.5-Mistral-7B"
+    ],
+    "rate": 0.8,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "Qwen/Qwen2.5-3B-Instruct",
+      "Qwen/Qwen2.5-7B-Instruct"
+    ],
+    "rate": 0.92,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "Qwen/Qwen2.5-3B-Instruct",
+      "allenai/OLMo-2-1124-13B-Instruct"
+    ],
+    "rate": 0.76,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "Qwen/Qwen2.5-3B-Instruct",
+      "allenai/OLMo-2-1124-7B-Instruct"
+    ],
+    "rate": 0.84,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "Qwen/Qwen2.5-3B-Instruct",
+      "microsoft/Phi-3.5-mini-instruct"
+    ],
+    "rate": 0.8,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "Qwen/Qwen2.5-3B-Instruct",
+      "teknium/OpenHermes-2.5-Mistral-7B"
+    ],
+    "rate": 0.76,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "Qwen/Qwen2.5-7B-Instruct",
+      "allenai/OLMo-2-1124-13B-Instruct"
+    ],
+    "rate": 0.92,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "Qwen/Qwen2.5-7B-Instruct",
+      "allenai/OLMo-2-1124-7B-Instruct"
+    ],
+    "rate": 0.8,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "Qwen/Qwen2.5-7B-Instruct",
+      "microsoft/Phi-3.5-mini-instruct"
+    ],
+    "rate": 0.84,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "Qwen/Qwen2.5-7B-Instruct",
+      "teknium/OpenHermes-2.5-Mistral-7B"
+    ],
+    "rate": 0.84,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "allenai/OLMo-2-1124-13B-Instruct",
+      "allenai/OLMo-2-1124-7B-Instruct"
+    ],
+    "rate": 0.84,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "allenai/OLMo-2-1124-13B-Instruct",
+      "microsoft/Phi-3.5-mini-instruct"
+    ],
+    "rate": 0.8,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "allenai/OLMo-2-1124-13B-Instruct",
+      "teknium/OpenHermes-2.5-Mistral-7B"
+    ],
+    "rate": 0.76,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "allenai/OLMo-2-1124-7B-Instruct",
+      "microsoft/Phi-3.5-mini-instruct"
+    ],
+    "rate": 0.88,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "allenai/OLMo-2-1124-7B-Instruct",
+      "teknium/OpenHermes-2.5-Mistral-7B"
+    ],
+    "rate": 0.88,
+    "status": "converged"
+  },
+  {
+    "dropped": [
+      "microsoft/Phi-3.5-mini-instruct",
+      "teknium/OpenHermes-2.5-Mistral-7B"
+    ],
+    "rate": 0.84,
+    "status": "converged"
+  }
+]

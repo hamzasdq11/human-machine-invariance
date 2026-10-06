@@ -1,0 +1,28 @@
+{
+  "main": {
+    "rows": 15000,
+    "mismatches": {
+      "order": 0,
+      "key": 0,
+      "choice": 0,
+      "correct": 0
+    },
+    "unparsable": 862,
+    "unparsable_containing_key_text": 67,
+    "lenient_rescued": 190,
+    "lenient_rescued_correct": 28
+  },
+  "temp0": {
+    "rows": 5000,
+    "mismatches": {
+      "order": 0,
+      "key": 0,
+      "choice": 0,
+      "correct": 0
+    },
+    "unparsable": 251,
+    "unparsable_containing_key_text": 27,
+    "lenient_rescued": 69,
+    "lenient_rescued_correct": 12
+  }
+}

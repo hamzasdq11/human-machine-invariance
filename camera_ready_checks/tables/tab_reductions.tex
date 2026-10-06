@@ -1,0 +1,11 @@
+\begin{table}[t]
+\caption{The model-level item test under three ways of reducing a model's runs to one examinee: its modal answer per item (correct when more than half its parsed runs are); one randomly chosen (frame, seed) run, over 2{,}000 draws (main arm: mean 0.12, 90\% range 0.04--0.20); and its proportion correct per item, tested with the stop-loss bound~(\ref{eq:stoploss}). Null rates: share of items flagged when the eight models are replaced by synthetic humans, invariant by construction, whose runs copy one answer (fixed), are fresh independent draws (fresh), or are draws from fixed propensities matched to each model's run-to-run variance (matched); 400 data sets each. Real groups of 8: 1{,}000 groups of eight SAPA respondents per item, each answering once (so the three reductions coincide), tested in the same way as the models (run mean: with the stop-loss bound); $p=(1+k)/1{,}001$, with $k$ the number of groups at or above the models' rate.}
+\label{tab:reductions}\centering\footnotesize\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lccccccc}\toprule
+ & \multicolumn{2}{c}{observed} & \multicolumn{3}{c}{null rate} & \multicolumn{2}{c}{real groups of 8} \\\cmidrule(lr){2-3}\cmidrule(lr){4-6}\cmidrule(lr){7-8}
+reduction & main & temp.\ 0 & fixed & fresh & matched & mean & $p$ \\\midrule
+modal & 0.20 & 0.08 & 0.001 & 0.059 & 0.001 & 0.007 & $\le$0.001 \\
+single run & 0.12 & 0.12 & 0.001 & 0.001 & 0.001 & 0.007 & 0.003 \\
+run mean & 0.08 & 0.12 & 0.001 & 0.000 & 0.000 & 0.005 & 0.013 \\\midrule
+\multicolumn{8}{p{0.93\columnwidth}}{Flagged, main arm. Modal: VR.26, VR.36, VR.39, VR.42, LN.01. Run mean: VR.36, VR.39. Single run: VR.36 in 100\%, VR.39 in 83\%, VR.26 in 56\% of draws. Temperature-0 arm. Modal: VR.36, VR.39. Run mean: VR.26, VR.36, VR.39. Single run: VR.36 in 100\%, VR.39 in 83\%, VR.26 in 68\% of draws. With flagged items excluded from every ability estimate (iterated to a fixed point; single runs: 500 draws): main arm, modal VR.11, VR.14, VR.16, VR.18, VR.26, VR.31, VR.36, VR.42, LN.01 (four models then answer none of the sixteen items left); run mean VR.36, VR.39; single run VR.36 in 100\%, VR.39 in 68\%, VR.26 in 58\% of draws. Temperature-0 arm: modal VR.36, VR.39; run mean VR.26, VR.36, VR.39; single run VR.36 in 100\%, VR.39 in 70\%, VR.26 in 67\%.} \\
+\bottomrule\end{tabular}\end{table}

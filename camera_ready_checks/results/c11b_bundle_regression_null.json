@@ -1,0 +1,24 @@
+{
+  "rho": 0.7312190538595588,
+  "nrep": 4000,
+  "observed": 6.021072768337411,
+  "expected_from_verbal": 15.692042497915676,
+  "raw_two_sided_p": 0.0026312723247248226,
+  "null": {
+    "fixed": {
+      "p_two_sided": 0.11747063234191452,
+      "p_one_sided_deficit": 0.003749062734316421,
+      "share_null_excess": 0.792
+    },
+    "fresh": {
+      "p_two_sided": 0.039990002499375156,
+      "p_one_sided_deficit": 0.00024993751562109475,
+      "share_null_excess": 0.93525
+    },
+    "matched": {
+      "p_two_sided": 0.07798050487378155,
+      "p_one_sided_deficit": 0.0004998750312421895,
+      "share_null_excess": 0.85575
+    }
+  }
+}

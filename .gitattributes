@@ -1,0 +1,8 @@
+# Data and generated outputs: keep them out of GitHub's language statistics and diffs
+data/** linguist-generated=true
+results/** linguist-generated=true
+camera_ready_checks/results/** linguist-generated=true
+camera_ready_checks/tables/** linguist-generated=true
+paper_cr/tables/** linguist-generated=true
+*.jsonl -diff
+*.csv -diff

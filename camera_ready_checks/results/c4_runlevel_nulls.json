@@ -1,0 +1,65 @@
+{
+  "A": {
+    "reps": 200,
+    "rate_mean": 0.7462000000000001,
+    "rate_median": 0.76,
+    "rate_q05": 0.56,
+    "rate_q95": 0.92,
+    "share_ge_observed_084": 0.285,
+    "sigma_zero_share": 0.465,
+    "mu_median": -1.3208900264684744
+  },
+  "B": {
+    "reps": 200,
+    "rate_mean": 0.0002,
+    "rate_median": 0.0,
+    "rate_q05": 0.0,
+    "rate_q95": 0.0,
+    "share_ge_observed_084": 0.0,
+    "sigma_zero_share": 0.0,
+    "mu_median": -1.5163432336033842
+  },
+  "C": {
+    "reps": 200,
+    "rate_mean": 0.7116,
+    "rate_median": 0.72,
+    "rate_q05": 0.48,
+    "rate_q95": 0.92,
+    "share_ge_observed_084": 0.215,
+    "sigma_zero_share": 0.37,
+    "mu_median": -1.5607925905022442
+  },
+  "setup": {
+    "thetas": {
+      "NousResearch/Meta-Llama-3.1-8B-Instruct": -1.5107275744157822,
+      "Qwen/Qwen2.5-14B-Instruct": -0.9255097690728943,
+      "Qwen/Qwen2.5-3B-Instruct": -1.7717841100380067,
+      "Qwen/Qwen2.5-7B-Instruct": -1.349539032538392,
+      "allenai/OLMo-2-1124-13B-Instruct": -1.6620621439957761,
+      "allenai/OLMo-2-1124-7B-Instruct": -1.442018527479091,
+      "microsoft/Phi-3.5-mini-instruct": -1.368076278318365,
+      "teknium/OpenHermes-2.5-Mistral-7B": -2.077295811743507
+    },
+    "flip": {
+      "NousResearch/Meta-Llama-3.1-8B-Instruct": 0.1578743101263041,
+      "Qwen/Qwen2.5-14B-Instruct": 0.0976402634525535,
+      "Qwen/Qwen2.5-3B-Instruct": 0.11966561747124671,
+      "Qwen/Qwen2.5-7B-Instruct": 0.11873358617675261,
+      "allenai/OLMo-2-1124-13B-Instruct": 0.12308645099419285,
+      "allenai/OLMo-2-1124-7B-Instruct": 0.11610470262475747,
+      "microsoft/Phi-3.5-mini-instruct": 0.09139573524477118,
+      "teknium/OpenHermes-2.5-Mistral-7B": 0.12817170653646975
+    },
+    "kappa": {
+      "NousResearch/Meta-Llama-3.1-8B-Instruct": 4.260404064794817,
+      "Qwen/Qwen2.5-14B-Instruct": 0.8263144906205988,
+      "Qwen/Qwen2.5-3B-Instruct": 2.5992171067029486,
+      "Qwen/Qwen2.5-7B-Instruct": 1.494972661005666,
+      "allenai/OLMo-2-1124-13B-Instruct": 2.36082238550954,
+      "allenai/OLMo-2-1124-7B-Instruct": 1.5522142086388795,
+      "microsoft/Phi-3.5-mini-instruct": 0.9182567827680436,
+      "teknium/OpenHermes-2.5-Mistral-7B": 8.73037558064294
+    },
+    "observed_rate": 0.84
+  }
+}

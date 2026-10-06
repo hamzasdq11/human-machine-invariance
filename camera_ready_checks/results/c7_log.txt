@@ -1,0 +1,13 @@
+{'rows_in_file': 96958, 'N': 95166, 'observed': 732720, 'per_item_N_min': 13108, 'per_item_N_max': 39384, 'items_per_person_median': 7.0}
+{'iterations': 14, 'seconds': 1.2, 'max_abs_diff_a': 0.002413535175776138, 'max_abs_diff_b': 0.0024516694735416955, 'a_range': [0.5824405857324562, 1.8058811818752345], 'b_range': [-3.5259140063886165, 1.6318674974238576]}
+ge5_other {'pool_size_median': 24794, 'stoploss': {'mean': 0.004560000000000001, 'q95': 0.04, 'max': 0.12, 'p_ge_runmean_008': 0.012987012987012988}} {'mean': 0.006520000000000001, 'q95': 0.04, 'max': 0.12, 'p_ge_modal_020': 0.000999000999000999, 'p_ge_single_012': 0.002997002997002997}
+ge8_other {'pool_size_median': 11934, 'stoploss': {'mean': 0.0022400000000000002, 'q95': 0.04, 'max': 0.08, 'p_ge_runmean_008': 0.002997002997002997}} {'mean': 0.0033200000000000005, 'q95': 0.04, 'max': 0.08, 'p_ge_modal_020': 0.000999000999000999, 'p_ge_single_012': 0.000999000999000999}
+{'label': 'VR vs letter series', 'persons_with_both': 93658, 'rho': 0.7312190538595588, 'se_boot': 0.005555800289958418, 'ci95': [0.7194665200337607, 0.7401574856137384]}
+{'label': 'VR vs all LN', 'persons_with_both': 94021, 'rho': 0.7864753064641108, 'se_boot': 0.005118953524672145, 'ci95': [0.7760787118698147, 0.7956787337136342]}
+{'label': 'VR vs number series', 'persons_with_both': 48142, 'rho': 0.8808232542789081, 'se_boot': 0.007281612267112747, 'ci95': [0.8671712008914578, 0.8940955644522669]}
+rho seconds 519
+main rho {'rho': 0.7312190538595588, 'reps': 2000, 'calibrated_p_mean': 0.01199400299850075, 'calibrated_p_modal': 0.0014992503748125937, 'typeI_005_mean': 0.076, 'typeI_005_modal': 0.2205}
+main ci_low {'rho': 0.7194665200337607, 'reps': 2000, 'calibrated_p_mean': 0.01899050474762619, 'calibrated_p_modal': 0.0014992503748125937, 'typeI_005_mean': 0.0895, 'typeI_005_modal': 0.2175}
+temp0 rho {'rho': 0.7312190538595588, 'reps': 1000, 'calibrated_p_mean': 0.011988011988011988, 'calibrated_p_modal': 0.003996003996003996, 'typeI_005_mean': 0.079, 'typeI_005_modal': 0.199}
+temp0 ci_low {'rho': 0.7194665200337607, 'reps': 1000, 'calibrated_p_mean': 0.015984015984015984, 'calibrated_p_modal': 0.002997002997002997, 'typeI_005_mean': 0.097, 'typeI_005_modal': 0.224}
+done

@@ -1,0 +1,28 @@
+{
+  "n_items": 25,
+  "n_anchors": 4,
+  "dif_rate_total": 0.84,
+  "dif_rate_uniform": 0.84,
+  "dif_rate_nonuniform": 0.0,
+  "focal_mu": -1.0167206960107749,
+  "focal_sigma": 7.928974203080304e-09,
+  "mean_abs_signed_area": 1.9873505357320516,
+  "purified": true,
+  "purify_status": "converged",
+  "n_flagged": 21,
+  "anchors_final": [
+    "VR.16",
+    "VR.18",
+    "LN.03",
+    "LN.58"
+  ],
+  "n_purify_iter": 4,
+  "ets_BC_rate": 0.96,
+  "n_respondents": 600,
+  "excluded": [],
+  "accuracy": 0.3907907766303579,
+  "parse_rate": 0.9425333333333333,
+  "median_item_n": 571.0,
+  "raw_gap": -0.23204632117035262,
+  "purified_theta_gap": -0.543045459066193
+}

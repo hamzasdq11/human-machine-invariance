@@ -1,0 +1,11 @@
+{
+  "reps": 200,
+  "rate_mean": 0.7508,
+  "rate_q05": 0.52,
+  "rate_q95": 0.92,
+  "p_rate_ge_084": 0.33,
+  "sigma0_share": 0.45,
+  "rmsd_med_median": 0.29691002752019763,
+  "rmsd_med_q95": 0.3253001869386737,
+  "observed_rmsd_median": 0.3311
+}

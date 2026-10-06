@@ -1,0 +1,36 @@
+{
+  "arm": "generation",
+  "n_records": 8800,
+  "n_models": 11,
+  "icar_accuracy": 0.17621688231669747,
+  "chance": 0.125,
+  "human_accuracy": 0.6422708027304934,
+  "alpha_machine": -0.17291956152539686,
+  "alpha_human": 0.7658193795229504,
+  "item_total_machine": {
+    "reason.4": -0.13617021618110298,
+    "reason.16": 0.002869785683650338,
+    "reason.17": -0.10900501587585514,
+    "reason.19": 0.015324572955786125,
+    "letter.7": -0.047121932610628484,
+    "letter.33": -0.0029596882627159057,
+    "letter.34": -0.02983302052580871,
+    "letter.58": -0.15653258927636993
+  },
+  "p_correct_in_preferred_position": 0.324,
+  "p_correct_otherwise": 0.14930808448652585,
+  "modal_position_share": {
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": 0.37305699481865284,
+    "HuggingFaceTB/SmolLM2-360M-Instruct": 0.46774193548387094,
+    "Qwen/Qwen2.5-0.5B-Instruct": 0.16666666666666666,
+    "Qwen/Qwen2.5-1.5B-Instruct": 0.2634730538922156,
+    "Qwen/Qwen2.5-3B-Instruct": 0.21428571428571427,
+    "Qwen/Qwen2.5-7B-Instruct": 0.26262626262626265,
+    "TinyLlama/TinyLlama-1.1B-Chat-v1.0": 0.26857142857142857,
+    "allenai/OLMo-2-1124-7B-Instruct": 0.2727272727272727,
+    "microsoft/Phi-3.5-mini-instruct": 0.20670391061452514,
+    "stabilityai/stablelm-2-1_6b-chat": 0.2375
+  },
+  "value_answers_scored_missing": 0.055,
+  "verdict": "administration artifact suspected; see PREREGISTRATION.md D3"
+}

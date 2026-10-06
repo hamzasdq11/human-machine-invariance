@@ -1,0 +1,95 @@
+{
+ "source": "Colab_Administration (1).ipynb, cell 24, GATED dict (22 Aug 2026); gate: 0.30<=acc<=0.85 and parse>=0.80",
+ "models": [
+  {
+   "model": "HuggingFaceTB/SmolLM2-360M-Instruct",
+   "pilot_acc": 0.123,
+   "pilot_parse": 0.912,
+   "admitted": false
+  },
+  {
+   "model": "Qwen/Qwen2.5-0.5B-Instruct",
+   "pilot_acc": 0.137,
+   "pilot_parse": 0.76,
+   "admitted": false
+  },
+  {
+   "model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+   "pilot_acc": 0.06,
+   "pilot_parse": 0.536,
+   "admitted": false
+  },
+  {
+   "model": "Qwen/Qwen2.5-1.5B-Instruct",
+   "pilot_acc": 0.254,
+   "pilot_parse": 0.912,
+   "admitted": false
+  },
+  {
+   "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "pilot_acc": 0.144,
+   "pilot_parse": 0.944,
+   "admitted": false
+  },
+  {
+   "model": "Qwen/Qwen2.5-3B-Instruct",
+   "pilot_acc": 0.35,
+   "pilot_parse": 0.96,
+   "admitted": true
+  },
+  {
+   "model": "microsoft/Phi-3.5-mini-instruct",
+   "pilot_acc": 0.429,
+   "pilot_parse": 0.952,
+   "admitted": true
+  },
+  {
+   "model": "Qwen/Qwen2.5-7B-Instruct",
+   "pilot_acc": 0.421,
+   "pilot_parse": 0.968,
+   "admitted": true
+  },
+  {
+   "model": "allenai/OLMo-2-1124-7B-Instruct",
+   "pilot_acc": 0.35,
+   "pilot_parse": 0.96,
+   "admitted": true
+  },
+  {
+   "model": "HuggingFaceH4/zephyr-7b-beta",
+   "pilot_acc": 0.378,
+   "pilot_parse": 0.592,
+   "admitted": false
+  },
+  {
+   "model": "teknium/OpenHermes-2.5-Mistral-7B",
+   "pilot_acc": 0.375,
+   "pilot_parse": 0.96,
+   "admitted": true
+  },
+  {
+   "model": "NousResearch/Meta-Llama-3.1-8B-Instruct",
+   "pilot_acc": 0.331,
+   "pilot_parse": 0.944,
+   "admitted": true
+  },
+  {
+   "model": "allenai/OLMo-2-1124-13B-Instruct",
+   "pilot_acc": 0.35,
+   "pilot_parse": 0.936,
+   "admitted": true
+  },
+  {
+   "model": "Qwen/Qwen2.5-14B-Instruct",
+   "pilot_acc": 0.456,
+   "pilot_parse": 0.912,
+   "admitted": true
+  },
+  {
+   "model": "microsoft/phi-4",
+   "pilot_acc": 0.505,
+   "pilot_parse": 0.728,
+   "admitted": false
+  }
+ ]
+}

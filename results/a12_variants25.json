@@ -1,0 +1,156 @@
+{
+  "prompt_v1": {
+    "rate": 0.12,
+    "flagged": [
+      "VR.26",
+      "VR.36",
+      "VR.39"
+    ]
+  },
+  "prompt_v2": {
+    "rate": 0.12,
+    "flagged": [
+      "VR.26",
+      "VR.36",
+      "VR.39"
+    ]
+  },
+  "prompt_v3": {
+    "rate": 0.32,
+    "flagged": [
+      "VR.14",
+      "VR.23",
+      "VR.26",
+      "VR.36",
+      "VR.39",
+      "VR.42",
+      "LN.01",
+      "LN.05"
+    ]
+  },
+  "prompt_v4": {
+    "rate": 0.16,
+    "flagged": [
+      "VR.26",
+      "VR.36",
+      "VR.39",
+      "LN.01"
+    ]
+  },
+  "prompt_v5": {
+    "rate": 0.08,
+    "flagged": [
+      "VR.36",
+      "VR.39"
+    ]
+  },
+  "family_Qwen2.5-14B-Instruct+OLMo-2-1124-13B-Instruct": {
+    "rate": 0.04,
+    "flagged": [
+      "VR.36"
+    ]
+  },
+  "family_Qwen2.5-14B-Instruct+OLMo-2-1124-7B-Instruct": {
+    "rate": 0.04,
+    "flagged": [
+      "VR.36"
+    ]
+  },
+  "family_Qwen2.5-3B-Instruct+OLMo-2-1124-13B-Instruct": {
+    "rate": 0.2,
+    "flagged": [
+      "VR.26",
+      "VR.36",
+      "VR.39",
+      "VR.42",
+      "LN.01"
+    ]
+  },
+  "family_Qwen2.5-3B-Instruct+OLMo-2-1124-7B-Instruct": {
+    "rate": 0.08,
+    "flagged": [
+      "VR.36",
+      "VR.39"
+    ]
+  },
+  "family_Qwen2.5-7B-Instruct+OLMo-2-1124-13B-Instruct": {
+    "rate": 0.04,
+    "flagged": [
+      "VR.36"
+    ]
+  },
+  "family_Qwen2.5-7B-Instruct+OLMo-2-1124-7B-Instruct": {
+    "rate": 0.04,
+    "flagged": [
+      "VR.36"
+    ]
+  },
+  "drop_Meta-Llama-3.1-8B-Instruct": {
+    "rate": 0.04,
+    "flagged": [
+      "VR.36"
+    ]
+  },
+  "drop_Qwen2.5-14B-Instruct": {
+    "rate": 0.12,
+    "flagged": [
+      "VR.26",
+      "VR.36",
+      "VR.39"
+    ]
+  },
+  "drop_Qwen2.5-3B-Instruct": {
+    "rate": 0.04,
+    "flagged": [
+      "VR.36"
+    ]
+  },
+  "drop_Qwen2.5-7B-Instruct": {
+    "rate": 0.12,
+    "flagged": [
+      "VR.36",
+      "VR.39",
+      "VR.42"
+    ]
+  },
+  "drop_OLMo-2-1124-13B-Instruct": {
+    "rate": 0.04,
+    "flagged": [
+      "VR.36"
+    ]
+  },
+  "drop_OLMo-2-1124-7B-Instruct": {
+    "rate": 0.16,
+    "flagged": [
+      "VR.26",
+      "VR.36",
+      "VR.39",
+      "LN.01"
+    ]
+  },
+  "drop_Phi-3.5-mini-instruct": {
+    "rate": 0.08,
+    "flagged": [
+      "VR.26",
+      "VR.36"
+    ]
+  },
+  "drop_OpenHermes-2.5-Mistral-7B": {
+    "rate": 0.12,
+    "flagged": [
+      "VR.36",
+      "VR.39",
+      "LN.01"
+    ]
+  },
+  "guess_floor_c125": {
+    "rate": 0.2,
+    "flagged": [
+      "VR.11",
+      "VR.36",
+      "VR.39",
+      "VR.42",
+      "LN.01"
+    ]
+  }
+}

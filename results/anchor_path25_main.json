@@ -1,0 +1,109 @@
+{
+  "path": [
+    {
+      "iteration": 1,
+      "anchors_used": [
+        "VR.04",
+        "VR.09",
+        "VR.11",
+        "VR.13",
+        "VR.14",
+        "VR.16",
+        "VR.17",
+        "VR.18",
+        "VR.19",
+        "VR.23",
+        "VR.26",
+        "VR.31",
+        "VR.32",
+        "VR.36",
+        "VR.39",
+        "VR.42",
+        "LN.01",
+        "LN.03",
+        "LN.05",
+        "LN.06",
+        "LN.07",
+        "LN.33",
+        "LN.34",
+        "LN.35",
+        "LN.58"
+      ],
+      "mu": -1.1988739936289288,
+      "sigma": 1.9252721414374693e-08,
+      "n_flagged": 22,
+      "unflagged": [
+        "VR.09",
+        "VR.16",
+        "VR.18"
+      ],
+      "floor_binding": true
+    },
+    {
+      "iteration": 2,
+      "anchors_used": [
+        "VR.09",
+        "VR.16",
+        "VR.18",
+        "LN.58"
+      ],
+      "mu": -1.1137800522932382,
+      "sigma": 4.172725119724865e-08,
+      "n_flagged": 20,
+      "unflagged": [
+        "VR.09",
+        "VR.16",
+        "VR.18",
+        "LN.03",
+        "LN.58"
+      ],
+      "floor_binding": false
+    },
+    {
+      "iteration": 3,
+      "anchors_used": [
+        "VR.09",
+        "VR.16",
+        "VR.18",
+        "LN.03",
+        "LN.58"
+      ],
+      "mu": -1.062532953765622,
+      "sigma": 1.2763241375479615e-07,
+      "n_flagged": 21,
+      "unflagged": [
+        "VR.16",
+        "VR.18",
+        "LN.03",
+        "LN.58"
+      ],
+      "floor_binding": false
+    },
+    {
+      "iteration": 4,
+      "anchors_used": [
+        "VR.16",
+        "VR.18",
+        "LN.03",
+        "LN.58"
+      ],
+      "mu": -1.0167206960107749,
+      "sigma": 7.928974203080304e-09,
+      "n_flagged": 21,
+      "unflagged": [
+        "VR.16",
+        "VR.18",
+        "LN.03",
+        "LN.58"
+      ],
+      "floor_binding": false
+    }
+  ],
+  "final": [
+    "VR.16",
+    "VR.18",
+    "LN.03",
+    "LN.58"
+  ],
+  "status": "converged"
+}

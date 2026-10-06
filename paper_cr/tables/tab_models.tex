@@ -1,0 +1,14 @@
+\begin{table*}[t]
+\caption{The model pool. Fifteen candidates were piloted on all 25 items; seven failed the admission gate (five at floor: SmolLM2-360M, Qwen2.5-0.5B, TinyLlama-1.1B, Qwen2.5-1.5B, SmolLM2-1.7B; two on parse rate: zephyr-7b-beta, phi-4). Each admitted model gave 1{,}875 main-arm and 625 temperature-0 responses; none was excluded (but see D11). Parse and accuracy are main-arm. $\hat\theta$ and $l_z^*$ treat each model as one examinee answering once (its modal answer per item; Section~\ref{sec:unit}). NF4 = 4-bit NormalFloat.}
+\label{tab:models}\centering
+\begin{tabular}{llllrrrrr}\toprule
+model & family & size & weights & pilot acc. & parse & acc. & $\hat\theta$ & $l_z^*$ \\\midrule
+Qwen2.5-3B & Qwen & 3B & 16-bit & 0.35 & 0.96 & 0.36 & $-$1.77 & $-$0.97 \\
+Phi-3.5-mini & Phi & 3.8B & 16-bit & 0.43 & 0.94 & 0.41 & $-$1.37 & $+$0.49 \\
+Qwen2.5-7B & Qwen & 7B & NF4 & 0.42 & 0.97 & 0.43 & $-$1.35 & $+$0.07 \\
+OLMo-2-7B & OLMo & 7B & NF4 & 0.35 & 0.95 & 0.34 & $-$1.44 & $-$0.66 \\
+OpenHermes-2.5 & Mistral & 7B & NF4 & 0.38 & 0.96 & 0.36 & $-$2.08 & $-$0.30 \\
+Llama-3.1-8B & Llama & 8B & NF4 & 0.33 & 0.90 & 0.37 & $-$1.51 & $-$0.94 \\
+OLMo-2-13B & OLMo & 13B & NF4 & 0.35 & 0.95 & 0.37 & $-$1.66 & $-$0.19 \\
+Qwen2.5-14B & Qwen & 14B & NF4 & 0.46 & 0.91 & 0.48 & $-$0.93 & $+$0.47 \\
+\bottomrule\end{tabular}\end{table*}

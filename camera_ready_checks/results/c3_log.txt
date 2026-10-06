@@ -1,0 +1,180 @@
+main A0 {'modal:letter_given_VR': (0.112, 0.0007), 'modal:LN_given_VR': (0.143, 0.0053), 'mean:letter_given_VR': (0.077, 0.0173), 'mean:LN_given_VR': (0.099, 0.1226), 'single:letter_given_VR': (0.12, 0.0087), 'single:LN_given_VR': (0.156, 0.0773)}
+main B {'modal:letter_given_VR': (0.944, 0.0007), 'modal:LN_given_VR': (0.902, 0.1146), 'mean:letter_given_VR': (0.0, 0.0007), 'mean:LN_given_VR': (0.0, 0.0007), 'single:letter_given_VR': (0.113, 0.008), 'single:LN_given_VR': (0.155, 0.0793)}
+main C {'modal:letter_given_VR': (0.158, 0.0007), 'modal:LN_given_VR': (0.168, 0.01), 'mean:letter_given_VR': (0.006, 0.0013), 'mean:LN_given_VR': (0.009, 0.014), 'single:letter_given_VR': (0.125, 0.0113), 'single:LN_given_VR': (0.158, 0.0873)}
+main C_rho0.9 {'modal:letter_given_VR': (0.163, 0.0007), 'modal:LN_given_VR': (0.203, 0.0167), 'mean:letter_given_VR': (0.019, 0.0013), 'mean:LN_given_VR': (0.051, 0.0786), 'single:letter_given_VR': (0.169, 0.0093), 'single:LN_given_VR': (0.215, 0.1286)}
+main C_rho0.8 {'modal:letter_given_VR': (0.222, 0.002), 'modal:LN_given_VR': (0.269, 0.0413), 'mean:letter_given_VR': (0.075, 0.012), 'mean:LN_given_VR': (0.111, 0.1419), 'single:letter_given_VR': (0.218, 0.0273), 'single:LN_given_VR': (0.267, 0.1792)}
+main C_rho0.7 {'modal:letter_given_VR': (0.236, 0.0013), 'modal:LN_given_VR': (0.298, 0.0533), 'mean:letter_given_VR': (0.094, 0.018), 'mean:LN_given_VR': (0.137, 0.1792), 'single:letter_given_VR': (0.22, 0.0247), 'single:LN_given_VR': (0.282, 0.1779)}
+main C_rho0.6 {'modal:letter_given_VR': (0.283, 0.0013), 'modal:LN_given_VR': (0.339, 0.0653), 'mean:letter_given_VR': (0.141, 0.0306), 'mean:LN_given_VR': (0.181, 0.2258), 'single:letter_given_VR': (0.27, 0.044), 'single:LN_given_VR': (0.321, 0.2199)}
+main C_rho0.5 {'modal:letter_given_VR': (0.275, 0.0033), 'modal:LN_given_VR': (0.35, 0.0826), 'mean:letter_given_VR': (0.165, 0.05), 'mean:LN_given_VR': (0.21, 0.2565), 'single:letter_given_VR': (0.287, 0.0573), 'single:LN_given_VR': (0.328, 0.2512)}
+power 0.25 {'bundle': 0.06666666666666667, 'any_item': np.float64(0.0)}
+power 0.5 {'bundle': 0.31666666666666665, 'any_item': np.float64(0.0)}
+power 0.75 {'bundle': 0.7333333333333333, 'any_item': np.float64(0.0)}
+power 1.0 {'bundle': 0.95, 'any_item': np.float64(0.0)}
+power 1.5 {'bundle': 0.9966666666666667, 'any_item': np.float64(0.0)}
+power 2.0 {'bundle': 1.0, 'any_item': np.float64(0.0)}
+main {
+ "LN_given_VR": {
+  "modal": {
+   "total": 7.0,
+   "expected": 19.56940944515742,
+   "p": 0.00015423856491730598
+  },
+  "mean": {
+   "total": 14.434374046706829,
+   "expected": 22.021658551038552,
+   "p": 0.08384789072189855
+  },
+  "single": {
+   "p_median": 0.01570077910719623,
+   "share_p_lt_005": 0.677,
+   "share_p_lt_001": 0.236
+  }
+ },
+ "VR_given_LN": {
+  "modal": {
+   "total": 57.0,
+   "expected": 34.96315067822692,
+   "p": 1.1437554125369833e-06
+  },
+  "mean": {
+   "total": 62.433961027376505,
+   "expected": 49.34383785808276,
+   "p": 0.016976200920534538
+  },
+  "single": {
+   "p_median": 0.0006266071931202307,
+   "share_p_lt_005": 0.862,
+   "share_p_lt_001": 0.539
+  }
+ },
+ "letter_given_VR": {
+  "modal": {
+   "total": 0.0,
+   "expected": 14.037859568623746,
+   "p": 2.794580584130003e-08
+  },
+  "mean": {
+   "total": 6.021072768337411,
+   "expected": 15.692042497915676,
+   "p": 0.0026312723247248226
+  },
+  "single": {
+   "p_median": 0.0003904517128945408,
+   "share_p_lt_005": 0.913,
+   "share_p_lt_001": 0.593
+  }
+ },
+ "number_given_VR": {
+  "modal": {
+   "total": 7.0,
+   "expected": 5.531549876533674,
+   "p": 0.3976285649489624
+  },
+  "mean": {
+   "total": 8.413301278369415,
+   "expected": 6.329616053122878,
+   "p": 0.6075495721709215
+  },
+  "single": {
+   "p_median": 0.4109534421933675,
+   "share_p_lt_005": 0.095,
+   "share_p_lt_001": 0.004
+  }
+ }
+}
+                    model  theta_VR  theta_LN  theta_letter  letter_mean  letter_expected_from_VR
+        Meta-Llama-3.1-8B     -1.46     -1.13         -1.42         0.19                     0.19
+              Qwen2.5-14B     -0.36     -1.45         -2.72         0.05                     0.47
+               Qwen2.5-3B     -1.30     -1.38         -2.10         0.09                     0.22
+               Qwen2.5-7B     -0.74     -1.57         -2.34         0.08                     0.36
+               OLMo-2-13B     -1.32     -1.41         -2.10         0.09                     0.22
+                OLMo-2-7B     -1.15     -1.46         -2.14         0.08                     0.25
+    Phi-3.5-mini-instruct     -0.96     -1.23         -1.79         0.13                     0.30
+OpenHermes-2.5-Mistral-7B     -1.28     -1.57         -1.66         0.15                     0.23
+temp0 A0 {'modal:letter_given_VR': (0.104, 0.0027), 'modal:LN_given_VR': (0.131, 0.016), 'mean:letter_given_VR': (0.064, 0.0133), 'mean:LN_given_VR': (0.091, 0.1197), 'single:letter_given_VR': (0.109, 0.0027), 'single:LN_given_VR': (0.141, 0.0691)}
+temp0 B {'modal:letter_given_VR': (0.819, 0.016), 'modal:LN_given_VR': (0.731, 0.1383), 'mean:letter_given_VR': (0.0, 0.0027), 'mean:LN_given_VR': (0.0, 0.0027), 'single:letter_given_VR': (0.133, 0.0027), 'single:LN_given_VR': (0.157, 0.0851)}
+temp0 C {'modal:letter_given_VR': (0.149, 0.0053), 'modal:LN_given_VR': (0.179, 0.0266), 'mean:letter_given_VR': (0.024, 0.0053), 'mean:LN_given_VR': (0.035, 0.0399), 'single:letter_given_VR': (0.133, 0.016), 'single:LN_given_VR': (0.155, 0.0824)}
+temp0 C_rho0.9 {'modal:letter_given_VR': (0.155, 0.0027), 'modal:LN_given_VR': (0.232, 0.0585), 'mean:letter_given_VR': (0.053, 0.0053), 'mean:LN_given_VR': (0.088, 0.1144), 'single:letter_given_VR': (0.173, 0.0133), 'single:LN_given_VR': (0.253, 0.1489)}
+temp0 C_rho0.8 {'modal:letter_given_VR': (0.208, 0.0053), 'modal:LN_given_VR': (0.28, 0.0612), 'mean:letter_given_VR': (0.085, 0.0106), 'mean:LN_given_VR': (0.125, 0.1622), 'single:letter_given_VR': (0.184, 0.0239), 'single:LN_given_VR': (0.245, 0.1489)}
+temp0 C_rho0.7 {'modal:letter_given_VR': (0.2, 0.0027), 'modal:LN_given_VR': (0.28, 0.0691), 'mean:letter_given_VR': (0.109, 0.016), 'mean:LN_given_VR': (0.163, 0.2154), 'single:letter_given_VR': (0.248, 0.0372), 'single:LN_given_VR': (0.272, 0.1941)}
+temp0 C_rho0.6 {'modal:letter_given_VR': (0.245, 0.0027), 'modal:LN_given_VR': (0.336, 0.0798), 'mean:letter_given_VR': (0.141, 0.0213), 'mean:LN_given_VR': (0.189, 0.2207), 'single:letter_given_VR': (0.272, 0.0213), 'single:LN_given_VR': (0.32, 0.2287)}
+temp0 C_rho0.5 {'modal:letter_given_VR': (0.288, 0.016), 'modal:LN_given_VR': (0.387, 0.125), 'mean:letter_given_VR': (0.173, 0.0479), 'mean:LN_given_VR': (0.219, 0.2819), 'single:letter_given_VR': (0.301, 0.0665), 'single:LN_given_VR': (0.36, 0.2686)}
+temp0 {
+ "LN_given_VR": {
+  "modal": {
+   "total": 9.0,
+   "expected": 20.512117457166383,
+   "p": 0.0006273748639326696
+  },
+  "mean": {
+   "total": 15.010453455773815,
+   "expected": 22.67659415531979,
+   "p": 0.08490677588584042
+  },
+  "single": {
+   "p_median": 0.016768390925083518,
+   "share_p_lt_005": 0.655,
+   "share_p_lt_001": 0.207
+  }
+ },
+ "VR_given_LN": {
+  "modal": {
+   "total": 60.0,
+   "expected": 40.45494666597205,
+   "p": 3.72200991572433e-05
+  },
+  "mean": {
+   "total": 63.51757324800803,
+   "expected": 50.45502046938662,
+   "p": 0.01753352132191036
+  },
+  "single": {
+   "p_median": 0.0007684878918963578,
+   "share_p_lt_005": 0.872,
+   "share_p_lt_001": 0.524
+  }
+ },
+ "letter_given_VR": {
+  "modal": {
+   "total": 2.0,
+   "expected": 14.718611828441585,
+   "p": 2.831216421957926e-06
+  },
+  "mean": {
+   "total": 5.808099794941903,
+   "expected": 16.16796449127363,
+   "p": 0.001281568330390917
+  },
+  "single": {
+   "p_median": 0.0003888999523710442,
+   "share_p_lt_005": 0.938,
+   "share_p_lt_001": 0.6
+  }
+ },
+ "number_given_VR": {
+  "modal": {
+   "total": 7.0,
+   "expected": 5.793505628724796,
+   "p": 0.5678259272698348
+  },
+  "mean": {
+   "total": 9.202353660831923,
+   "expected": 6.508629664046164,
+   "p": 0.343592579564343
+  },
+  "single": {
+   "p_median": 0.25660862120400896,
+   "share_p_lt_005": 0.198,
+   "share_p_lt_001": 0.012
+  }
+ }
+}
+                    model  theta_VR  theta_LN  theta_letter  letter_mean  letter_expected_from_VR
+        Meta-Llama-3.1-8B     -1.27     -0.97         -1.37         0.20                     0.23
+              Qwen2.5-14B     -0.25     -1.54         -2.77         0.05                     0.50
+               Qwen2.5-3B     -1.34     -1.34         -2.09         0.09                     0.21
+               Qwen2.5-7B     -0.70     -1.41         -2.13         0.10                     0.37
+               OLMo-2-13B     -1.35     -1.50         -2.70         0.04                     0.21
+                OLMo-2-7B     -1.06     -1.28         -1.90         0.11                     0.28
+    Phi-3.5-mini-instruct     -1.05     -1.31         -1.98         0.10                     0.28
+OpenHermes-2.5-Mistral-7B     -1.27     -1.50         -1.70         0.14                     0.23

@@ -1,0 +1,113 @@
+{
+ "accounting": {
+  "rows": 15000,
+  "models": 8,
+  "runs": 600,
+  "runs_per_model": [
+   75
+  ],
+  "frames": [
+   "v1",
+   "v2",
+   "v3",
+   "v4",
+   "v5"
+  ],
+  "seeds": 15,
+  "parsed": 14138,
+  "parse_rate": 0.9425333333333333,
+  "accuracy": 0.3907907766303579,
+  "per_item_parsed_n_median": 571.0,
+  "per_item_parsed_n_range": [
+   462,
+   600
+  ],
+  "parse_by_frame": {
+   "v1": 0.985,
+   "v2": 0.983,
+   "v3": 0.967,
+   "v4": 0.987,
+   "v5": 0.79
+  },
+  "temp0_rows": 5000,
+  "temp0_runs": 200,
+  "temp0_parse": 0.9498,
+  "temp0_accuracy": 0.39776795114761004
+ },
+ "item_test_modal": {
+  "flagged": [
+   "VR.26",
+   "VR.36",
+   "VR.39",
+   "VR.42",
+   "LN.01"
+  ],
+  "rate": 0.2
+ },
+ "item_test_temp0_v1s0": {
+  "flagged": [
+   "VR.36",
+   "VR.39",
+   "LN.05"
+  ],
+  "rate": 0.12
+ },
+ "item_test_temp0_modal": {
+  "flagged": [
+   "VR.36",
+   "VR.39"
+  ],
+  "rate": 0.08
+ },
+ "sim_null": {
+  "reps": 4000,
+  "mean": 0.0012100000000000001,
+  "q95": 0.0,
+  "max": 0.08,
+  "share_any_flag": 0.0285,
+  "share_ge_observed": 0.0
+ },
+ "power_one_item": {
+  "1.0_easier": {
+   "median": 0.055,
+   "items_ge_08": 0
+  },
+  "1.0_harder": {
+   "median": 0.0,
+   "items_ge_08": 0
+  },
+  "2.0_easier": {
+   "median": 0.48,
+   "items_ge_08": 3
+  },
+  "2.0_harder": {
+   "median": 0.0,
+   "items_ge_08": 0
+  },
+  "3.0_easier": {
+   "median": 0.815,
+   "items_ge_08": 14
+  },
+  "3.0_harder": {
+   "median": 0.0,
+   "items_ge_08": 2
+  },
+  "4.0_easier": {
+   "median": 0.97,
+   "items_ge_08": 17
+  },
+  "4.0_harder": {
+   "median": 0.0,
+   "items_ge_08": 4
+  }
+ }
+}
+                    model  items  ties  theta  lz_star  p_lz_sim  accuracy  parse
+        Meta-Llama-3.1-8B     25     0 -1.511   -0.942     0.162     0.366  0.898
+              Qwen2.5-14B     24     1 -0.926    0.474     0.619     0.485  0.914
+               Qwen2.5-3B     25     0 -1.772   -0.970     0.152     0.365  0.957
+               Qwen2.5-7B     25     0 -1.350    0.071     0.458     0.431  0.971
+               OLMo-2-13B     24     1 -1.662   -0.192     0.359     0.371  0.947
+                OLMo-2-7B     25     0 -1.442   -0.657     0.230     0.342  0.954
+    Phi-3.5-mini-instruct     24     1 -1.368    0.489     0.629     0.411  0.936
+OpenHermes-2.5-Mistral-7B     25     0 -2.077   -0.303     0.326     0.358  0.964

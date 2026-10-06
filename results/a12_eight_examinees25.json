@@ -1,0 +1,37 @@
+{
+  "observed_rate": 0.2,
+  "observed_flagged": [
+    "VR.26",
+    "VR.36",
+    "VR.39",
+    "VR.42",
+    "LN.01"
+  ],
+  "temp0_single_rate": 0.12,
+  "temp0_single_flagged": [
+    "VR.36",
+    "VR.39",
+    "LN.05"
+  ],
+  "model_thetas": {
+    "NousResearch/Meta-Llama-3.1-8B-Instruct": -1.511,
+    "Qwen/Qwen2.5-14B-Instruct": -0.926,
+    "Qwen/Qwen2.5-3B-Instruct": -1.772,
+    "Qwen/Qwen2.5-7B-Instruct": -1.35,
+    "allenai/OLMo-2-1124-13B-Instruct": -1.662,
+    "allenai/OLMo-2-1124-7B-Instruct": -1.442,
+    "microsoft/Phi-3.5-mini-instruct": -1.368,
+    "teknium/OpenHermes-2.5-Mistral-7B": -2.077
+  },
+  "sim_null_mean": 0.00168,
+  "sim_null_q95": 0.0,
+  "sim_null_max": 0.08,
+  "real_random8_mean": 0.0064,
+  "real_random8_q95": 0.04,
+  "real_random8_max": 0.12,
+  "real_men8_mean": 0.007066666666666667,
+  "real_men8_q95": 0.04,
+  "real_men8_max": 0.08,
+  "p_observed_vs_real_random": 0.0033222591362126247,
+  "p_observed_vs_real_men": 0.0033222591362126247
+}

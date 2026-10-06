@@ -1,0 +1,52 @@
++ cd <repo>
++ REPS=40
++ python3 scripts/run_sims.py all
+[A_separation] 360 replicates in 181s -> <repo>/scripts/../results/sim_A_separation.csv
+[B_focal_n] 280 replicates in 157s -> <repo>/scripts/../results/sim_B_focal_n.csv
+[C_null] 300 replicates in 73s -> <repo>/scripts/../results/sim_C_null.csv
++ N_PLACEBO=80
++ python3 scripts/run_human_controls.py all
+[calibration] converged=True iters=12 loglik=-12612.7
+     item                     domain  p_value     a      b
+ reason.4           verbal reasoning    0.676 1.728 -0.652
+reason.16           verbal reasoning    0.727 1.327 -0.977
+reason.17           verbal reasoning    0.738 1.894 -0.865
+reason.19           verbal reasoning    0.644 1.291 -0.612
+ letter.7       letter/number series    0.634 1.497 -0.520
+letter.33       letter/number series    0.605 1.263 -0.442
+letter.34       letter/number series    0.642 1.596 -0.533
+letter.58       letter/number series    0.471 1.427  0.105
+matrix.45           matrix reasoning    0.549 0.961 -0.251
+matrix.46           matrix reasoning    0.570 1.027 -0.341
+matrix.47           matrix reasoning    0.638 1.254 -0.595
+matrix.55           matrix reasoning    0.391 0.785  0.638
+ rotate.3 three-dimensional rotation    0.203 1.827  1.151
+ rotate.4 three-dimensional rotation    0.222 2.084  0.995
+ rotate.6 three-dimensional rotation    0.313 1.603  0.709
+ rotate.8 three-dimensional rotation    0.193 1.573  1.284
+[placebo:icar] 320 splits in 70s
+      dif_rate_total         dif_rate_uniform         dif_rate_nonuniform        
+                mean     std             mean     std                mean     std
+n_foc                                                                            
+100           0.0102  0.0289           0.0055  0.0204              0.0125  0.0350
+250           0.0203  0.0485           0.0117  0.0300              0.0188  0.0481
+500           0.0328  0.0644           0.0125  0.0305              0.0289  0.0544
+762           0.1109  0.1234           0.0594  0.0681              0.0734  0.0871
+[subgroup:bfi:gender] N=919/1881 LR-DIF=0.880 MH B+C=0.360
+[subgroup:bfi:agesplit] N=1495/1305 LR-DIF=0.720 MH B+C=0.160
+[subgroup:spi:sex] N=1598/2348 LR-DIF=0.888 MH B+C=0.299
+[subgroup:spi:edusplit] N=2493/1507 LR-DIF=0.709 MH B+C=0.127
++ python3 scripts/make_tables.py
+wrote tab_separation.tex
+wrote tab_focaln.tex
+wrote tab_placebo.tex
+wrote tab_subgroup.tex
+wrote tab_icar.tex
+wrote macros.tex with 20 macros
++ python3 scripts/make_figures.py
+wrote <repo>/scripts/../paper/figures/fig_validation.pdf
+wrote <repo>/scripts/../paper/figures/fig_focaln.pdf
++ python3 scripts/stub_tables.py
+stubs ensured
++ echo ALL_DONE
+ALL_DONE

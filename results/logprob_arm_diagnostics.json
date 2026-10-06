@@ -1,0 +1,74 @@
+{
+  "arm": "logprob",
+  "n_records": 6921,
+  "n_models_usable": 8,
+  "scoring_rules": {
+    "mean_logprob_all8": {
+      "acc": 0.114,
+      "alpha": 0.213,
+      "tail_share": 0.644
+    },
+    "mean_logprob_6subst": {
+      "acc": 0.192,
+      "alpha": 0.002,
+      "tail_share": 0.0
+    },
+    "total_logprob_all8": {
+      "acc": 0.101,
+      "alpha": 0.17,
+      "tail_share": 0.317
+    },
+    "total_logprob_6subst": {
+      "acc": 0.193,
+      "alpha": -0.072,
+      "tail_share": 0.0
+    }
+  },
+  "generation_arm": {
+    "acc": 0.176,
+    "alpha": -0.173
+  },
+  "humans": {
+    "acc": 0.642,
+    "alpha": 0.766
+  },
+  "chance_6opt": 0.16666666666666666,
+  "per_item": {
+    "letter.33": {
+      "machine": 0.095,
+      "human": 0.6050069541029207
+    },
+    "letter.34": {
+      "machine": 0.17,
+      "human": 0.6419243986254296
+    },
+    "letter.58": {
+      "machine": 0.075,
+      "human": 0.4707927677329624
+    },
+    "letter.7": {
+      "machine": 0.125,
+      "human": 0.6342817487855655
+    },
+    "reason.16": {
+      "machine": 0.675,
+      "human": 0.7272727272727273
+    },
+    "reason.17": {
+      "machine": 0.14,
+      "human": 0.7375
+    },
+    "reason.19": {
+      "machine": 0.11,
+      "human": 0.6435439560439561
+    },
+    "reason.4": {
+      "machine": 0.145,
+      "human": 0.6761442441054092
+    }
+  },
+  "models_above_chance": 2,
+  "models_tested": 8,
+  "between_model_sd": 0.041742193453216066,
+  "verdict": "focal population at floor: 7 of 8 items at or below chance, only reason.16 solved (0.675). With no ability variance there is no latent dimension to place on the human scale. Invariance is NOT ESTIMABLE in this configuration -- which is different from invariance failing."
+}

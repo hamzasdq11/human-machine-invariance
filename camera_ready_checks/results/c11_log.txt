@@ -1,0 +1,36 @@
+main VR16 1D fixed {'letter_mean': 0.0141, 'letter_modal': 0.0001, 'LN_mean': 0.1325} 57s
+main VR16 1D fresh {'letter_mean': 0.0001, 'letter_modal': 0.0002, 'LN_mean': 0.0001} 57s
+main VR16 1D matched {'letter_mean': 0.0002, 'letter_modal': 0.0001, 'LN_mean': 0.0194} 58s
+main VR16 2D fixed {'letter_mean': 0.0471, 'letter_modal': 0.0004, 'LN_mean': 0.2331} 60s
+main VR16 2D fresh {'letter_mean': 0.0044, 'letter_modal': 0.0049, 'LN_mean': 0.0623} 60s
+main VR16 2D matched {'letter_mean': 0.0151, 'letter_modal': 0.0009, 'LN_mean': 0.1406} 64s
+main VRminus2 1D fixed {'letter_mean': 0.0201, 'letter_modal': 0.0002} 34s
+main VRminus2 1D fresh {'letter_mean': 0.0001, 'letter_modal': 0.0005} 34s
+main VRminus2 1D matched {'letter_mean': 0.0003, 'letter_modal': 0.0002} 36s
+main VRminus2 2D fixed {'letter_mean': 0.0609, 'letter_modal': 0.0021} 34s
+main VRminus2 2D fresh {'letter_mean': 0.005, 'letter_modal': 0.0089} 34s
+main VRminus2 2D matched {'letter_mean': 0.0218, 'letter_modal': 0.0014} 36s
+main VRminus4 1D fixed {'letter_mean': 0.0425, 'letter_modal': 0.0003} 34s
+main VRminus4 1D fresh {'letter_mean': 0.0001, 'letter_modal': 0.0114} 34s
+main VRminus4 1D matched {'letter_mean': 0.002, 'letter_modal': 0.0007} 36s
+main VRminus4 2D fixed {'letter_mean': 0.106, 'letter_modal': 0.0041} 34s
+main VRminus4 2D fresh {'letter_mean': 0.0161, 'letter_modal': 0.015} 35s
+main VRminus4 2D matched {'letter_mean': 0.047, 'letter_modal': 0.0042} 36s
+temp0 VR16 1D fixed {'letter_mean': 0.0084, 'letter_modal': 0.0008, 'LN_mean': 0.1318} 28s
+temp0 VR16 1D fresh {'letter_mean': 0.0002, 'letter_modal': 0.0094, 'LN_mean': 0.0002} 28s
+temp0 VR16 1D matched {'letter_mean': 0.0002, 'letter_modal': 0.0008, 'LN_mean': 0.0402} 30s
+temp0 VR16 2D fixed {'letter_mean': 0.0326, 'letter_modal': 0.0036, 'LN_mean': 0.2348} 30s
+temp0 VR16 2D fresh {'letter_mean': 0.0014, 'letter_modal': 0.0232, 'LN_mean': 0.072} 29s
+temp0 VR16 2D matched {'letter_mean': 0.0144, 'letter_modal': 0.0036, 'LN_mean': 0.157} 31s
+temp0 VRminus2 1D fixed {'letter_mean': 0.0176, 'letter_modal': 0.001} 16s
+temp0 VRminus2 1D fresh {'letter_mean': 0.0002, 'letter_modal': 0.0334} 16s
+temp0 VRminus2 1D matched {'letter_mean': 0.0008, 'letter_modal': 0.001} 18s
+temp0 VRminus2 2D fixed {'letter_mean': 0.0512, 'letter_modal': 0.0062} 17s
+temp0 VRminus2 2D fresh {'letter_mean': 0.005, 'letter_modal': 0.0322} 17s
+temp0 VRminus2 2D matched {'letter_mean': 0.0184, 'letter_modal': 0.0058} 18s
+temp0 VRminus4 1D fixed {'letter_mean': 0.0354, 'letter_modal': 0.0022} 16s
+temp0 VRminus4 1D fresh {'letter_mean': 0.0002, 'letter_modal': 0.1118} 16s
+temp0 VRminus4 1D matched {'letter_mean': 0.0032, 'letter_modal': 0.0056} 18s
+temp0 VRminus4 2D fixed {'letter_mean': 0.094, 'letter_modal': 0.0206} 17s
+temp0 VRminus4 2D fresh {'letter_mean': 0.0156, 'letter_modal': 0.063} 16s
+temp0 VRminus4 2D matched {'letter_mean': 0.0408, 'letter_modal': 0.0138} 18s

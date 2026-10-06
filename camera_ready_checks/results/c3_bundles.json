@@ -1,0 +1,721 @@
+{
+  "main": {
+    "LN_given_VR": {
+      "modal": {
+        "total": 7.0,
+        "expected": 19.56940944515742,
+        "p": 0.00015423856491730598
+      },
+      "mean": {
+        "total": 14.434374046706829,
+        "expected": 22.021658551038552,
+        "p": 0.08384789072189855
+      },
+      "single": {
+        "p_median": 0.01570077910719623,
+        "share_p_lt_005": 0.677,
+        "share_p_lt_001": 0.236
+      }
+    },
+    "VR_given_LN": {
+      "modal": {
+        "total": 57.0,
+        "expected": 34.96315067822692,
+        "p": 1.1437554125369833e-06
+      },
+      "mean": {
+        "total": 62.433961027376505,
+        "expected": 49.34383785808276,
+        "p": 0.016976200920534538
+      },
+      "single": {
+        "p_median": 0.0006266071931202307,
+        "share_p_lt_005": 0.862,
+        "share_p_lt_001": 0.539
+      }
+    },
+    "letter_given_VR": {
+      "modal": {
+        "total": 0.0,
+        "expected": 14.037859568623746,
+        "p": 2.794580584130003e-08
+      },
+      "mean": {
+        "total": 6.021072768337411,
+        "expected": 15.692042497915676,
+        "p": 0.0026312723247248226
+      },
+      "single": {
+        "p_median": 0.0003904517128945408,
+        "share_p_lt_005": 0.913,
+        "share_p_lt_001": 0.593
+      }
+    },
+    "number_given_VR": {
+      "modal": {
+        "total": 7.0,
+        "expected": 5.531549876533674,
+        "p": 0.3976285649489624
+      },
+      "mean": {
+        "total": 8.413301278369415,
+        "expected": 6.329616053122878,
+        "p": 0.6075495721709215
+      },
+      "single": {
+        "p_median": 0.4109534421933675,
+        "share_p_lt_005": 0.095,
+        "share_p_lt_001": 0.004
+      }
+    },
+    "per_model": [
+      {
+        "model": "Meta-Llama-3.1-8B",
+        "theta_VR": -1.4551008609098557,
+        "theta_LN": -1.133210873910507,
+        "theta_letter": -1.4202328064736276,
+        "letter_mean": 0.19054415685960605,
+        "letter_expected_from_VR": 0.1905768536430578
+      },
+      {
+        "model": "Qwen2.5-14B",
+        "theta_VR": -0.36240739551128714,
+        "theta_LN": -1.4510205750372402,
+        "theta_letter": -2.717615082416129,
+        "letter_mean": 0.0497796061771217,
+        "letter_expected_from_VR": 0.47106689351406444
+      },
+      {
+        "model": "Qwen2.5-3B",
+        "theta_VR": -1.3041844311290567,
+        "theta_LN": -1.3760159103151992,
+        "theta_letter": -2.104218210909071,
+        "letter_mean": 0.09226554741874424,
+        "letter_expected_from_VR": 0.22082460517415758
+      },
+      {
+        "model": "Qwen2.5-7B",
+        "theta_VR": -0.7444047202708887,
+        "theta_LN": -1.5665012383763126,
+        "theta_letter": -2.3411787935102817,
+        "letter_mean": 0.07845559845559846,
+        "letter_expected_from_VR": 0.35950723995175465
+      },
+      {
+        "model": "OLMo-2-13B",
+        "theta_VR": -1.3152245271457002,
+        "theta_LN": -1.4073301006517807,
+        "theta_letter": -2.1013266729187943,
+        "letter_mean": 0.09283376887495944,
+        "letter_expected_from_VR": 0.21850237498883004
+      },
+      {
+        "model": "OLMo-2-7B",
+        "theta_VR": -1.1523931801621055,
+        "theta_LN": -1.4646615039708493,
+        "theta_letter": -2.1378084512083193,
+        "letter_mean": 0.08429390429390429,
+        "letter_expected_from_VR": 0.25448157736338217
+      },
+      {
+        "model": "Phi-3.5-mini-instruct",
+        "theta_VR": -0.9617602631255487,
+        "theta_LN": -1.2258940876767683,
+        "theta_letter": -1.7850388477726253,
+        "letter_mean": 0.126975546975547,
+        "letter_expected_from_VR": 0.30112276880421623
+      },
+      {
+        "model": "OpenHermes-2.5-Mistral-7B",
+        "theta_VR": -1.28155647748269,
+        "theta_LN": -1.5670865411873613,
+        "theta_letter": -1.6566220963939597,
+        "letter_mean": 0.14500512356414896,
+        "letter_expected_from_VR": 0.22563804340563345
+      }
+    ],
+    "calibration": {
+      "A0": {
+        "modal:letter_given_VR": {
+          "typeI_005": 0.112,
+          "calibrated_p": 0.0006662225183211193
+        },
+        "modal:LN_given_VR": {
+          "typeI_005": 0.14266666666666666,
+          "calibrated_p": 0.005329780146568954
+        },
+        "mean:letter_given_VR": {
+          "typeI_005": 0.07666666666666666,
+          "calibrated_p": 0.017321785476349102
+        },
+        "mean:LN_given_VR": {
+          "typeI_005": 0.09866666666666667,
+          "calibrated_p": 0.12258494337108594
+        },
+        "single:letter_given_VR": {
+          "typeI_005": 0.12,
+          "calibrated_p": 0.008660892738174551
+        },
+        "single:LN_given_VR": {
+          "typeI_005": 0.156,
+          "calibrated_p": 0.07728181212524983
+        }
+      },
+      "B": {
+        "modal:letter_given_VR": {
+          "typeI_005": 0.944,
+          "calibrated_p": 0.0006662225183211193
+        },
+        "modal:LN_given_VR": {
+          "typeI_005": 0.902,
+          "calibrated_p": 0.1145902731512325
+        },
+        "mean:letter_given_VR": {
+          "typeI_005": 0.0,
+          "calibrated_p": 0.0006662225183211193
+        },
+        "mean:LN_given_VR": {
+          "typeI_005": 0.0,
+          "calibrated_p": 0.0006662225183211193
+        },
+        "single:letter_given_VR": {
+          "typeI_005": 0.11266666666666666,
+          "calibrated_p": 0.007994670219853431
+        },
+        "single:LN_given_VR": {
+          "typeI_005": 0.15533333333333332,
+          "calibrated_p": 0.07928047968021319
+        }
+      },
+      "C": {
+        "modal:letter_given_VR": {
+          "typeI_005": 0.158,
+          "calibrated_p": 0.0006662225183211193
+        },
+        "modal:LN_given_VR": {
+          "typeI_005": 0.168,
+          "calibrated_p": 0.009993337774816789
+        },
+        "mean:letter_given_VR": {
+          "typeI_005": 0.006,
+          "calibrated_p": 0.0013324450366422385
+        },
+        "mean:LN_given_VR": {
+          "typeI_005": 0.009333333333333334,
+          "calibrated_p": 0.013990672884743505
+        },
+        "single:letter_given_VR": {
+          "typeI_005": 0.12533333333333332,
+          "calibrated_p": 0.011325782811459028
+        },
+        "single:LN_given_VR": {
+          "typeI_005": 0.158,
+          "calibrated_p": 0.08727514990006663
+        }
+      },
+      "C_rho0.9": {
+        "modal:letter_given_VR": {
+          "typeI_005": 0.16333333333333333,
+          "calibrated_p": 0.0006662225183211193
+        },
+        "modal:LN_given_VR": {
+          "typeI_005": 0.20266666666666666,
+          "calibrated_p": 0.016655562958027982
+        },
+        "mean:letter_given_VR": {
+          "typeI_005": 0.019333333333333334,
+          "calibrated_p": 0.0013324450366422385
+        },
+        "mean:LN_given_VR": {
+          "typeI_005": 0.050666666666666665,
+          "calibrated_p": 0.07861425716189208
+        },
+        "single:letter_given_VR": {
+          "typeI_005": 0.16933333333333334,
+          "calibrated_p": 0.009327115256495669
+        },
+        "single:LN_given_VR": {
+          "typeI_005": 0.21533333333333332,
+          "calibrated_p": 0.12858094603597603
+        }
+      },
+      "C_rho0.8": {
+        "modal:letter_given_VR": {
+          "typeI_005": 0.222,
+          "calibrated_p": 0.001998667554963358
+        },
+        "modal:LN_given_VR": {
+          "typeI_005": 0.26866666666666666,
+          "calibrated_p": 0.041305796135909394
+        },
+        "mean:letter_given_VR": {
+          "typeI_005": 0.07466666666666667,
+          "calibrated_p": 0.011992005329780146
+        },
+        "mean:LN_given_VR": {
+          "typeI_005": 0.11066666666666666,
+          "calibrated_p": 0.1419053964023984
+        },
+        "single:letter_given_VR": {
+          "typeI_005": 0.218,
+          "calibrated_p": 0.02731512325116589
+        },
+        "single:LN_given_VR": {
+          "typeI_005": 0.2673333333333333,
+          "calibrated_p": 0.17921385742838108
+        }
+      },
+      "C_rho0.7": {
+        "modal:letter_given_VR": {
+          "typeI_005": 0.236,
+          "calibrated_p": 0.0013324450366422385
+        },
+        "modal:LN_given_VR": {
+          "typeI_005": 0.298,
+          "calibrated_p": 0.05329780146568954
+        },
+        "mean:letter_given_VR": {
+          "typeI_005": 0.094,
+          "calibrated_p": 0.01798800799467022
+        },
+        "mean:LN_given_VR": {
+          "typeI_005": 0.13733333333333334,
+          "calibrated_p": 0.17921385742838108
+        },
+        "single:letter_given_VR": {
+          "typeI_005": 0.22,
+          "calibrated_p": 0.02465023317788141
+        },
+        "single:LN_given_VR": {
+          "typeI_005": 0.282,
+          "calibrated_p": 0.17788141239173885
+        }
+      },
+      "C_rho0.6": {
+        "modal:letter_given_VR": {
+          "typeI_005": 0.2833333333333333,
+          "calibrated_p": 0.0013324450366422385
+        },
+        "modal:LN_given_VR": {
+          "typeI_005": 0.33866666666666667,
+          "calibrated_p": 0.06528980679546968
+        },
+        "mean:letter_given_VR": {
+          "typeI_005": 0.14066666666666666,
+          "calibrated_p": 0.030646235842771485
+        },
+        "mean:LN_given_VR": {
+          "typeI_005": 0.18133333333333335,
+          "calibrated_p": 0.22584943371085942
+        },
+        "single:letter_given_VR": {
+          "typeI_005": 0.27,
+          "calibrated_p": 0.04397068620919387
+        },
+        "single:LN_given_VR": {
+          "typeI_005": 0.32133333333333336,
+          "calibrated_p": 0.21985343104596936
+        }
+      },
+      "C_rho0.5": {
+        "modal:letter_given_VR": {
+          "typeI_005": 0.27466666666666667,
+          "calibrated_p": 0.0033311125916055963
+        },
+        "modal:LN_given_VR": {
+          "typeI_005": 0.35,
+          "calibrated_p": 0.08261159227181879
+        },
+        "mean:letter_given_VR": {
+          "typeI_005": 0.16466666666666666,
+          "calibrated_p": 0.049966688874083946
+        },
+        "mean:LN_given_VR": {
+          "typeI_005": 0.21,
+          "calibrated_p": 0.2564956695536309
+        },
+        "single:letter_given_VR": {
+          "typeI_005": 0.2866666666666667,
+          "calibrated_p": 0.05729513657561625
+        },
+        "single:LN_given_VR": {
+          "typeI_005": 0.328,
+          "calibrated_p": 0.25116588940706197
+        }
+      }
+    },
+    "power_letter_shift": {
+      "0.25": {
+        "bundle": 0.06666666666666667,
+        "any_item": 0.0
+      },
+      "0.5": {
+        "bundle": 0.31666666666666665,
+        "any_item": 0.0
+      },
+      "0.75": {
+        "bundle": 0.7333333333333333,
+        "any_item": 0.0
+      },
+      "1.0": {
+        "bundle": 0.95,
+        "any_item": 0.0
+      },
+      "1.5": {
+        "bundle": 0.9966666666666667,
+        "any_item": 0.0
+      },
+      "2.0": {
+        "bundle": 1.0,
+        "any_item": 0.0
+      }
+    }
+  },
+  "temp0": {
+    "LN_given_VR": {
+      "modal": {
+        "total": 9.0,
+        "expected": 20.512117457166383,
+        "p": 0.0006273748639326696
+      },
+      "mean": {
+        "total": 15.010453455773815,
+        "expected": 22.67659415531979,
+        "p": 0.08490677588584042
+      },
+      "single": {
+        "p_median": 0.016768390925083518,
+        "share_p_lt_005": 0.655,
+        "share_p_lt_001": 0.207
+      }
+    },
+    "VR_given_LN": {
+      "modal": {
+        "total": 60.0,
+        "expected": 40.45494666597205,
+        "p": 3.72200991572433e-05
+      },
+      "mean": {
+        "total": 63.51757324800803,
+        "expected": 50.45502046938662,
+        "p": 0.01753352132191036
+      },
+      "single": {
+        "p_median": 0.0007684878918963578,
+        "share_p_lt_005": 0.872,
+        "share_p_lt_001": 0.524
+      }
+    },
+    "letter_given_VR": {
+      "modal": {
+        "total": 2.0,
+        "expected": 14.718611828441585,
+        "p": 2.831216421957926e-06
+      },
+      "mean": {
+        "total": 5.808099794941903,
+        "expected": 16.16796449127363,
+        "p": 0.001281568330390917
+      },
+      "single": {
+        "p_median": 0.0003888999523710442,
+        "share_p_lt_005": 0.938,
+        "share_p_lt_001": 0.6
+      }
+    },
+    "number_given_VR": {
+      "modal": {
+        "total": 7.0,
+        "expected": 5.793505628724796,
+        "p": 0.5678259272698348
+      },
+      "mean": {
+        "total": 9.202353660831923,
+        "expected": 6.508629664046164,
+        "p": 0.343592579564343
+      },
+      "single": {
+        "p_median": 0.25660862120400896,
+        "share_p_lt_005": 0.198,
+        "share_p_lt_001": 0.012
+      }
+    },
+    "per_model": [
+      {
+        "model": "Meta-Llama-3.1-8B",
+        "theta_VR": -1.269812073725641,
+        "theta_LN": -0.9675635343109928,
+        "theta_letter": -1.3689292002078337,
+        "letter_mean": 0.20101389838231945,
+        "letter_expected_from_VR": 0.2281647415976307
+      },
+      {
+        "model": "Qwen2.5-14B",
+        "theta_VR": -0.25259679780528593,
+        "theta_LN": -1.5430666315574642,
+        "theta_letter": -2.7675850994408835,
+        "letter_mean": 0.04721804511278195,
+        "letter_expected_from_VR": 0.5040193542590257
+      },
+      {
+        "model": "Qwen2.5-3B",
+        "theta_VR": -1.344864502520717,
+        "theta_LN": -1.3412544117331715,
+        "theta_letter": -2.0936172355306604,
+        "letter_mean": 0.09360544217687074,
+        "letter_expected_from_VR": 0.21235306993654834
+      },
+      {
+        "model": "Qwen2.5-7B",
+        "theta_VR": -0.7027464247404428,
+        "theta_LN": -1.408891943679558,
+        "theta_letter": -2.132800232848186,
+        "letter_mean": 0.09714285714285716,
+        "letter_expected_from_VR": 0.3712260456591823
+      },
+      {
+        "model": "OLMo-2-13B",
+        "theta_VR": -1.3507039389466458,
+        "theta_LN": -1.5024818614657336,
+        "theta_letter": -2.7046970386366103,
+        "letter_mean": 0.042176870748299324,
+        "letter_expected_from_VR": 0.2111562634998996
+      },
+      {
+        "model": "OLMo-2-7B",
+        "theta_VR": -1.0645741933290185,
+        "theta_LN": -1.2821970159617426,
+        "theta_letter": -1.9008986716374856,
+        "letter_mean": 0.10857142857142857,
+        "letter_expected_from_VR": 0.27538720178488957
+      },
+      {
+        "model": "Phi-3.5-mini-instruct",
+        "theta_VR": -1.0527387942026698,
+        "theta_LN": -1.3099080013235465,
+        "theta_letter": -1.9754498642170455,
+        "letter_mean": 0.10285714285714286,
+        "letter_expected_from_VR": 0.27828200610033527
+      },
+      {
+        "model": "OpenHermes-2.5-Mistral-7B",
+        "theta_VR": -1.265392771707973,
+        "theta_LN": -1.4971624470732618,
+        "theta_letter": -1.696342469373032,
+        "letter_mean": 0.13714285714285715,
+        "letter_expected_from_VR": 0.229120530201578
+      }
+    ],
+    "calibration": {
+      "A0": {
+        "modal:letter_given_VR": {
+          "typeI_005": 0.104,
+          "calibrated_p": 0.0026595744680851063
+        },
+        "modal:LN_given_VR": {
+          "typeI_005": 0.13066666666666665,
+          "calibrated_p": 0.015957446808510637
+        },
+        "mean:letter_given_VR": {
+          "typeI_005": 0.064,
+          "calibrated_p": 0.013297872340425532
+        },
+        "mean:LN_given_VR": {
+          "typeI_005": 0.09066666666666667,
+          "calibrated_p": 0.1196808510638298
+        },
+        "single:letter_given_VR": {
+          "typeI_005": 0.10933333333333334,
+          "calibrated_p": 0.0026595744680851063
+        },
+        "single:LN_given_VR": {
+          "typeI_005": 0.14133333333333334,
+          "calibrated_p": 0.06914893617021277
+        }
+      },
+      "B": {
+        "modal:letter_given_VR": {
+          "typeI_005": 0.8186666666666667,
+          "calibrated_p": 0.015957446808510637
+        },
+        "modal:LN_given_VR": {
+          "typeI_005": 0.7306666666666667,
+          "calibrated_p": 0.13829787234042554
+        },
+        "mean:letter_given_VR": {
+          "typeI_005": 0.0,
+          "calibrated_p": 0.0026595744680851063
+        },
+        "mean:LN_given_VR": {
+          "typeI_005": 0.0,
+          "calibrated_p": 0.0026595744680851063
+        },
+        "single:letter_given_VR": {
+          "typeI_005": 0.13333333333333333,
+          "calibrated_p": 0.0026595744680851063
+        },
+        "single:LN_given_VR": {
+          "typeI_005": 0.15733333333333333,
+          "calibrated_p": 0.0851063829787234
+        }
+      },
+      "C": {
+        "modal:letter_given_VR": {
+          "typeI_005": 0.14933333333333335,
+          "calibrated_p": 0.005319148936170213
+        },
+        "modal:LN_given_VR": {
+          "typeI_005": 0.17866666666666667,
+          "calibrated_p": 0.026595744680851064
+        },
+        "mean:letter_given_VR": {
+          "typeI_005": 0.024,
+          "calibrated_p": 0.005319148936170213
+        },
+        "mean:LN_given_VR": {
+          "typeI_005": 0.034666666666666665,
+          "calibrated_p": 0.0398936170212766
+        },
+        "single:letter_given_VR": {
+          "typeI_005": 0.13333333333333333,
+          "calibrated_p": 0.015957446808510637
+        },
+        "single:LN_given_VR": {
+          "typeI_005": 0.15466666666666667,
+          "calibrated_p": 0.08244680851063829
+        }
+      },
+      "C_rho0.9": {
+        "modal:letter_given_VR": {
+          "typeI_005": 0.15466666666666667,
+          "calibrated_p": 0.0026595744680851063
+        },
+        "modal:LN_given_VR": {
+          "typeI_005": 0.232,
+          "calibrated_p": 0.05851063829787234
+        },
+        "mean:letter_given_VR": {
+          "typeI_005": 0.05333333333333334,
+          "calibrated_p": 0.005319148936170213
+        },
+        "mean:LN_given_VR": {
+          "typeI_005": 0.088,
+          "calibrated_p": 0.11436170212765957
+        },
+        "single:letter_given_VR": {
+          "typeI_005": 0.17333333333333334,
+          "calibrated_p": 0.013297872340425532
+        },
+        "single:LN_given_VR": {
+          "typeI_005": 0.25333333333333335,
+          "calibrated_p": 0.14893617021276595
+        }
+      },
+      "C_rho0.8": {
+        "modal:letter_given_VR": {
+          "typeI_005": 0.208,
+          "calibrated_p": 0.005319148936170213
+        },
+        "modal:LN_given_VR": {
+          "typeI_005": 0.28,
+          "calibrated_p": 0.061170212765957445
+        },
+        "mean:letter_given_VR": {
+          "typeI_005": 0.08533333333333333,
+          "calibrated_p": 0.010638297872340425
+        },
+        "mean:LN_given_VR": {
+          "typeI_005": 0.12533333333333332,
+          "calibrated_p": 0.1622340425531915
+        },
+        "single:letter_given_VR": {
+          "typeI_005": 0.184,
+          "calibrated_p": 0.023936170212765957
+        },
+        "single:LN_given_VR": {
+          "typeI_005": 0.24533333333333332,
+          "calibrated_p": 0.14893617021276595
+        }
+      },
+      "C_rho0.7": {
+        "modal:letter_given_VR": {
+          "typeI_005": 0.2,
+          "calibrated_p": 0.0026595744680851063
+        },
+        "modal:LN_given_VR": {
+          "typeI_005": 0.28,
+          "calibrated_p": 0.06914893617021277
+        },
+        "mean:letter_given_VR": {
+          "typeI_005": 0.10933333333333334,
+          "calibrated_p": 0.015957446808510637
+        },
+        "mean:LN_given_VR": {
+          "typeI_005": 0.16266666666666665,
+          "calibrated_p": 0.2154255319148936
+        },
+        "single:letter_given_VR": {
+          "typeI_005": 0.248,
+          "calibrated_p": 0.03723404255319149
+        },
+        "single:LN_given_VR": {
+          "typeI_005": 0.272,
+          "calibrated_p": 0.19414893617021275
+        }
+      },
+      "C_rho0.6": {
+        "modal:letter_given_VR": {
+          "typeI_005": 0.24533333333333332,
+          "calibrated_p": 0.0026595744680851063
+        },
+        "modal:LN_given_VR": {
+          "typeI_005": 0.336,
+          "calibrated_p": 0.0797872340425532
+        },
+        "mean:letter_given_VR": {
+          "typeI_005": 0.14133333333333334,
+          "calibrated_p": 0.02127659574468085
+        },
+        "mean:LN_given_VR": {
+          "typeI_005": 0.18933333333333333,
+          "calibrated_p": 0.22074468085106383
+        },
+        "single:letter_given_VR": {
+          "typeI_005": 0.272,
+          "calibrated_p": 0.02127659574468085
+        },
+        "single:LN_given_VR": {
+          "typeI_005": 0.32,
+          "calibrated_p": 0.22872340425531915
+        }
+      },
+      "C_rho0.5": {
+        "modal:letter_given_VR": {
+          "typeI_005": 0.288,
+          "calibrated_p": 0.015957446808510637
+        },
+        "modal:LN_given_VR": {
+          "typeI_005": 0.38666666666666666,
+          "calibrated_p": 0.125
+        },
+        "mean:letter_given_VR": {
+          "typeI_005": 0.17333333333333334,
+          "calibrated_p": 0.047872340425531915
+        },
+        "mean:LN_given_VR": {
+          "typeI_005": 0.21866666666666668,
+          "calibrated_p": 0.28191489361702127
+        },
+        "single:letter_given_VR": {
+          "typeI_005": 0.30133333333333334,
+          "calibrated_p": 0.06648936170212766
+        },
+        "single:LN_given_VR": {
+          "typeI_005": 0.36,
+          "calibrated_p": 0.26861702127659576
+        }
+      }
+    },
+    "power_letter_shift": {}
+  }
+}

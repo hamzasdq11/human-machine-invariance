@@ -1,0 +1,10 @@
+thetas {'Meta-Llama-3.1-8B': np.float64(-1.511), 'Qwen2.5-14B': np.float64(-0.926), 'Qwen2.5-3B': np.float64(-1.772), 'Qwen2.5-7B': np.float64(-1.35), 'OLMo-2-13B': np.float64(-1.662), 'OLMo-2-7B': np.float64(-1.442), 'Phi-3.5-mini-instruct': np.float64(-1.368), 'OpenHermes-2.5-Mistral-7B': np.float64(-2.077)}
+flip [0.158 0.098 0.12  0.119 0.123 0.116 0.091 0.128] kappa [4.26 0.83 2.6  1.49 2.36 1.55 0.92 8.73]
+rep 5/200  119s
+rep 10/200  250s
+rep 15/200  404s
+rep 20/200  519s
+rep 25/200  601s
+rep 30/200  710s
+rep 35/200  806s
+rep 40/200  920s

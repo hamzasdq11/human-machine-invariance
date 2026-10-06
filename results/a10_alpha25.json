@@ -1,0 +1,19 @@
+{
+  "items": [
+    "VR.04",
+    "VR.16",
+    "VR.17",
+    "VR.19",
+    "LN.07",
+    "LN.33",
+    "LN.34",
+    "LN.58"
+  ],
+  "machine_alpha_pairwise": -0.12455403727493572,
+  "machine_alpha_listwise": -0.16063191585865788,
+  "machine_listwise_n": 382,
+  "sapa_alpha_pairwise_8": 0.7389036729716315,
+  "human_alpha_psychtools_published": 0.766,
+  "machine_alpha_pairwise_25": 0.11740614036027121,
+  "sapa_alpha_pairwise_25": 0.846781299104299
+}

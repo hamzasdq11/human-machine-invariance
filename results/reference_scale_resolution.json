@@ -1,0 +1,16 @@
+{
+  "question": "psychTools p-values disagree with the ZPID release",
+  "resolution": "Three human sources. psychTools (N=1,525) and the ICAR website statistics (N~24k-39k) are mutually invariant: a uniform +0.078 logit ability shift with all residuals < 0.13. The ZPID release (N=52k-118k) sits 0.443 logits lower -- a genuine ability difference in a later, more international SAPA sample -- and is NOT invariant: reason.16 shows a residual of +0.818 logits, 12.1 SD from the other seven items. So the discrepancy is a real population difference plus item-level DIF on exactly one item, not a data error.",
+  "decision": "Anchor on psychTools item-level data (2PL, 8 items) and extend to 25 items using website difficulties linked by mean-mean equating on the 8 common items (shift +0.1021, residual SD 0.0671). The ZPID aggregates are NOT mixed into the anchor; they are retained as a human-human DIF benchmark.",
+  "human_human_dif_benchmark": {
+    "item": "reason.16",
+    "residual_logits": 0.818,
+    "sd_from_others": 12.1
+  },
+  "linking": {
+    "shift_logits": 0.10205340818796928,
+    "residual_sd": 0.06711376399550643,
+    "max_abs_residual": 0.1045896462332002,
+    "valid": true
+  }
+}

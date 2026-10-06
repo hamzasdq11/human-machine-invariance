@@ -1,0 +1,17 @@
+item,domain,text_administrable,p_value,n_obs
+reason.4,verbal reasoning,True,0.6761442441054092,1442
+reason.16,verbal reasoning,True,0.7272727272727273,1463
+reason.17,verbal reasoning,True,0.7375,1440
+reason.19,verbal reasoning,True,0.6435439560439561,1456
+letter.7,letter/number series,True,0.6342817487855655,1441
+letter.33,letter/number series,True,0.6050069541029207,1438
+letter.34,letter/number series,True,0.6419243986254296,1455
+letter.58,letter/number series,True,0.4707927677329624,1438
+matrix.45,matrix reasoning,False,0.5493827160493827,1458
+matrix.46,matrix reasoning,False,0.5700680272108843,1470
+matrix.47,matrix reasoning,False,0.6382252559726962,1465
+matrix.55,matrix reasoning,False,0.3906785469499657,1459
+rotate.3,three-dimensional rotation,False,0.2026098901098901,1456
+rotate.4,three-dimensional rotation,False,0.2219178082191781,1460
+rotate.6,three-dimensional rotation,False,0.3131868131868132,1456
+rotate.8,three-dimensional rotation,False,0.1931506849315068,1460
