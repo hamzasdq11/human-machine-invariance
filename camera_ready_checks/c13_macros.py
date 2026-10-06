@@ -33,6 +33,8 @@ t1 = {k: v["typeI_005"] for k, v in c11.items()}
 M["ckBxTypeIMax"] = r(max(t1.values()))
 M["ckBxTypeIFixedOneD"] = r(t1["1D_fixed"])
 M["ckBxTypeIMatchedTwoD"] = r(t1["2D_matched"])
+tln = {k: v["typeI_005"] for k, v in J("c11_bundle_anchor.json")["main"]["VR16"]["LN_mean"]["calibrated"].items()}
+M["ckBxTypeILNMax"] = r(max(tln.values()))
 
 c11b = J("c11b_bundle_regression_null.json")
 n = c11b["nrep"]
