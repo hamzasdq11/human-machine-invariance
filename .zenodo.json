@@ -18,13 +18,5 @@
     "large language models",
     "cognitive assessment",
     "psychometrics"
-  ],
-  "related_identifiers": [
-    {
-      "identifier": "10.5281/zenodo.23175503",
-      "relation": "isNewVersionOf",
-      "scheme": "doi",
-      "resource_type": "software"
-    }
   ]
 }

@@ -5,9 +5,9 @@ Code, data and results for
 > M. H. Siddiqui, "Measurement Invariance Between Human and Machine Respondents on Cognitive
 > Assessments," in *Proc. IEEE International Conference on Cognitive Machine Intelligence (CogMI)*, 2026.
 
-Archived on Zenodo from version 1.1.1; the DOI is on the release page and in `CITATION.cff`. Versions
-1.0.0 and 1.1.0 (doi:10.5281/zenodo.23175504, doi:10.5281/zenodo.23198554) included ICAR item material
-in error, and their files are restricted. See `CHANGELOG.md`.
+Archived on Zenodo: doi:10.5281/zenodo.23175503 resolves to the latest version. Versions 1.0.0 and 1.1.0
+(doi:10.5281/zenodo.23175504, doi:10.5281/zenodo.23198554) included ICAR item material in error, and
+their files are restricted; use 1.1.1 or later. See `CHANGELOG.md`.
 
 
 ## What this repository tests

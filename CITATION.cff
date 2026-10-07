@@ -7,6 +7,11 @@ authors:
     given-names: Mohammad Hamza
     affiliation: Indian Institute of Management Ranchi
 version: 1.1.1
+doi: 10.5281/zenodo.23175503
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23175503
+    description: "Zenodo concept DOI (resolves to the latest version)"
 repository-code: "https://github.com/hamzasdq11/human-machine-invariance"
 date-released: 2026-10-07
 license: MIT

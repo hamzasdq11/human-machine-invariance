@@ -9,9 +9,10 @@
 
 Both are removed. `scripts/verify_items.py` now reads the published key from a file you supply
 (`ICAR16_KEYS`). Commits made before 1.1.0 stayed reachable on GitHub by their ID, so the repository was
-deleted and recreated with this version as its only commit. The files of 1.1.0 on Zenodo
-(doi:10.5281/zenodo.23198554) are restricted, as are those of 1.0.0. From this version the archive is a
-new Zenodo record series.
+deleted and recreated with this version as its first commit. The files of 1.1.0 on Zenodo
+(doi:10.5281/zenodo.23198554) are restricted, as are those of 1.0.0. On Zenodo, 1.1.1 is a new version of
+the same record (all versions: doi:10.5281/zenodo.23175503); it was uploaded directly, because the
+GitHub integration could not be attached to the recreated repository.
 
 **Documentation**
 - The August runbook and README are marked as lightly edited.
