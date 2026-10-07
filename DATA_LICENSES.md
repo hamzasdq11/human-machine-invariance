@@ -23,7 +23,3 @@ not redistributed; `scripts/prep_data.py` rebuilds them from the package's data 
 
 No scoring keys are included either, not even the 16 ICAR sample-test keys published with `psychTools`;
 `scripts/verify_items.py` reads those from a file you supply (`ICAR16_KEYS`, see `data/README.md`).
-
-Versions 1.0.0 (doi:10.5281/zenodo.23175504) and 1.1.0 (doi:10.5281/zenodo.23198554) included ICAR
-item material in error: 1.0.0 the item text and keys, 1.1.0 one letter series in a code comment and the
-16 sample-test keys. Their files are restricted; use version 1.1.1 or later.
